@@ -1,0 +1,41 @@
+{
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+    "draw_white_space": "all",
+    "font_size": 12,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "margin": 2,
+    "rulers":
+    [
+        80
+    ],
+    "tab_size": 4,
+    "todo":
+    {
+        "file_exclude_patterns":
+        [
+            "*.css",
+            "*.md"
+        ],
+        "folder_exclude_patterns":
+        [
+            "cache",
+            "logs",
+            "vendor",
+            "web",
+            "tmp",
+            "doc"
+        ],
+        "patterns":
+        {
+            "CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+            "FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+            "NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+            "TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+        },
+        "result_title": "TODO Results"
+    },
+    "translate_tabs_to_spaces": true
+}
