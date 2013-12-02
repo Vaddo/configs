@@ -1,0 +1,6 @@
+{
+  "cache": {
+    "files": {"dot": "true",
+              "src": ["<%= app.cache %>/*",".sass_cache"]}
+  }
+}

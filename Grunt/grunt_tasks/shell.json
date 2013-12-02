@@ -1,0 +1,8 @@
+{
+    "symlinks": {
+        "command": "<%= app.console %> assets:install <%= app.web %> --relative --symlink"
+    },
+    "phpunit":{
+        "command": "<%= app.bin %>"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "options": {
+            "pattern": "css\\(|show\\(|hide\\("
+        },
+        "src": ["<%= app.source %>/**/scripts/*.js"]
+    },
+    "templates": {
+        "options": {
+            "pattern": "style=|<style"
+        },
+        "src": ["<%= app.source %>/**/*.html.twig"]
+    }
+}

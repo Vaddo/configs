@@ -1,0 +1,10 @@
+{
+  "options": {
+      "phpCmd":     "/usr/bin/php",
+      "phpArgs":    {"-l": null},
+      "spawnLimit": 10,
+      "swapPath":   "<%= app.cache %>"
+  },
+  "files": ["<%= app.root %>/app/**/*.php",
+            "<%= app.source %>/**/*.php"]
+}
