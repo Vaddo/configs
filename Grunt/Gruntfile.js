@@ -29,7 +29,8 @@ module.exports = function (grunt) {
             cache:      '<%= app.root %>/app/cache',
             console:    '<%= app.root %>/app/console',
 
-            compassLib: '<%= app.source %>/My/WebsiteBundle/Resources/public/sass'
+            compassLib: '<%= app.source %>/My/WebsiteBundle/Resources/public/sass',
+            compassLocation1: '<%= app.source %>/My/WebsiteBundle/Resources/public'
         },
 
 
