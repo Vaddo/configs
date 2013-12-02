@@ -11,51 +11,21 @@ ZSH_THEME="robbyrussell"
 alias zsh="subl ~/.zshrc"
 
 # Git
-alias gs='git status'
-alias gpl='git pull'
-alias gps='git push'
-alias gb='git branch -a'
-alias gf='git fetch -a'
-alias gap='git add -p'
-alias ga='git add'
-alias gck='git checkout'
-alias gc='git commit -m'
-alias gm='git merge'
-alias gst='git stash'
-alias gstp='git stash pop'
-alias gr='git reset HEAD'
-alias gl='git log'
-alias gsu='git submodule update'
-
-
-# Example aliases
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
-
-# Uncomment this to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want to disable command autocorrection
-# DISABLE_CORRECTION="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment following line if you want to disable marking untracked files under
-# VCS as dirty. This makes repository status check for large repositories much,
-# much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+alias gits='git status'
+alias gitpl='git pull'
+alias gitps='git push'
+alias gitb='git branch -a'
+alias gitf='git fetch -a'
+alias gitap='git add -p'
+alias gita='git add'
+alias gitck='git checkout'
+alias gitc='git commit -m'
+alias gitm='git merge'
+alias gitst='git stash'
+alias gitstp='git stash pop'
+alias gitr='git reset HEAD'
+alias gitl='git log'
+alias gitsu='git submodule update'
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
