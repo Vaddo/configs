@@ -1,7 +1,0 @@
-{
-  "options": {
-    "jshintrc": ".jshintrc",
-    "ignores": ["**/vendors/*.js"]
-    },
-  "all": ["<%= app.source %>/**/*.js"]
-}
