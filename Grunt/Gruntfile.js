@@ -21,8 +21,10 @@ module.exports = function (grunt) {
 
 
         // globals
+        rules: 'tests/rulesets',
+
         app: {
-            root:       'source',
+            root:       '../source',
             source:     '<%= app.root %>/src',
             web:        '<%= app.root %>/web',
             bin:        '<%= app.root %>/bin',
@@ -70,4 +72,5 @@ module.exports = function (grunt) {
                                'watch']);
 
     grunt.registerTask('sym',   ['shell:symlinks']);
+    grunt.registerTask('cache', ['clean']);
 };
