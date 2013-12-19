@@ -9,6 +9,7 @@ alias zsh="subl ~/.zshrc"
 alias gits='git status'
 alias gitpl='git pull'
 alias gitps='git push'
+alias gitpst='git push --tags'
 alias gitb='git branch -a'
 alias gitf='git fetch -a'
 alias gitap='git add -p'
@@ -23,6 +24,7 @@ alias gitl='git log'
 alias gitsu='git submodule update'
 alias gitrm='git rm -r'
 alias gitmv='git mv'
+alias gitt='git tag'
 
 plugins=(git)
 
