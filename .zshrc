@@ -4,6 +4,8 @@ ZSH_THEME="af-magic"
 
 . /usr/bin/z.sh
 alias zsh="subl ~/.zshrc"
+alias f5="f5less -js . ws:reload"
+alias cw="compass watch ."
 
 # Git
 alias gits='git status'
