@@ -27,6 +27,7 @@ alias gitsu='git submodule update'
 alias gitrm='git rm -r'
 alias gitmv='git mv'
 alias gitt='git tag'
+alias gitd='git diff --color-words'
 
 plugins=(git)
 
