@@ -1,19 +1,32 @@
 {
-	"theme": "Spacegray Eighties.sublime-theme",
-    "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"default_line_ending": "unix",
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
 	"font_size": 12,
+	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"margin": 2,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
+	"shift_tab_unindent": true,
+	"show_panel_on_build": false,
+	"show_tab_close_buttons": false,
 	"tab_size": 4,
+	"theme": "Centurion.sublime-theme",
 	"todo":
 	{
 		"file_exclude_patterns":
@@ -29,15 +42,8 @@
 			"web",
 			"tmp",
 			"doc"
-		],
-		"patterns":
-		{
-			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
-			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
-			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
-			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
-		},
-		"result_title": "TODO Results"
+		]
 	},
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
